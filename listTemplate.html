@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+				<title>Sample List</title>
+		</head>
+		
+		<body>
+
+			<div id = "nameList"></div>
+
+			<script id="sampleTemplate" type="text/x-handlebars-template">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<h2> First Name </h2>
+								{{#each name}}
+							<h4> {{firstName}}</h4>
+								{{/each}}
+						</div>
+
+						<div class="col-sm-4">
+							<h2> Last Name </h2>
+								{{#each name}}
+							<h4> {{lastName}}</h4>
+								{{/each}}
+						</div>
+
+						<div class="col-sm-4">
+							<h2>Twitter Handle</h2>
+								{{#each name}}
+							<h4> <a href="http://twitter.com/{{firstName}}_{{lastName}}">{{firstName}} {{lastName}}</a> </h4>
+							{{/each}}
+						</div>
+					</div>
+				</div>
+			</script>
+
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"> </script>
+		<link rel="stylesheet" type="text/css" href="css/ref.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+		<script src="js/handlebars-v4.0.11.js"></script>
+		<script src="js/refJsFile.js"> </script>
+
+	</body>
+</html>

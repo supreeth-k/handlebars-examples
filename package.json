@@ -1,0 +1,25 @@
+{
+  "name": "handlebars-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supreethkrishnamurthy/handlebars-examples.git"
+  },
+  "keywords": [
+    "handlebarsjs",
+    "html5",
+    "css3",
+    "bootstrap4"
+  ],
+  "author": "Supreeth Krishnamurthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supreethkrishnamurthy/handlebars-examples/issues"
+  },
+  "homepage": "https://github.com/supreethkrishnamurthy/handlebars-examples#readme"
+}
